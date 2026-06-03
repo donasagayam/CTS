@@ -1,0 +1,24 @@
+/* Page Styles */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Main Heading */
+h1{
+    color: darkblue;
+}
+
+/* Style for main CTA button */
+.cta-button{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.cta-button:hover{
+    background-color: #0056b3;
+}

@@ -1,0 +1,37 @@
+.nav-menu{
+    list-style:none;
+    padding:0;
+}
+
+.nav-menu li{
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+}
+
+a:link{
+    color:blue;
+    text-decoration:none;
+}
+
+a:visited{
+    color:purple;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+.event-list{
+    list-style-type:square;
+    list-style-position:inside;
+}
+
+.event-list li{
+    margin:10px;
+    padding:5px;
+}

@@ -1,0 +1,11 @@
+/* Header styles */
+.header{
+    color: blue;
+    text-align: center;
+}
+
+/* Content styles */
+.content{
+    font-size: 18px;
+    color: green;
+}

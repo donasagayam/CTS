@@ -1,0 +1,32 @@
+body{
+    background-color:#e6f2ff;
+
+    background-image:url("https://images.unsplash.com/photo-1505238680356-667803448bb6");
+
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+h1{
+    color:#003366;
+    text-align:center;
+}
+
+/* Gradient Header */
+.banner{
+    color:white;
+    padding:30px;
+    text-align:center;
+    font-size:28px;
+
+    background:linear-gradient(
+    to right,
+    #2193b0,
+    #6dd5ed
+    );
+}
+
+/* RGBA Example */
+p{
+    background-color:rgba(255,255,255,0.7);
+}
