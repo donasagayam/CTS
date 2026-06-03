@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Phone:
+<input type="text"
+onblur="validatePhone()">
+
+<br><br>
+
+<select onchange="showFee(this.value)">
+<option value="100">
+Sports
+</option>
+
+<option value="200">
+Music
+</option>
+</select>
+
+<p id="fee"></p>
+
+<img src="img1.jpg"
+width="100"
+ondblclick="this.style.width='200px'">
+
+<br><br>
+
+<textarea
+onkeyup="countChars(this)">
+</textarea>
+
+<p id="count">0</p>
+
+<button onclick="submitMsg()">
+Submit
+</button>
+
+<script>
+
+function validatePhone(){
+alert("Phone Validated");
+}
+
+function showFee(fee){
+document.getElementById("fee").innerHTML=
+"Fee : Rs."+fee;
+}
+
+function countChars(txt){
+document.getElementById("count").innerHTML=
+txt.value.length;
+}
+
+function submitMsg(){
+alert("Feedback Submitted");
+}
+
+</script>
+
+</body>
+</html>

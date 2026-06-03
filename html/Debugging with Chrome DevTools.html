@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Debugging Demo</h2>
+
+<button onclick="testDebug()">
+Click Me
+</button>
+
+<p id="result"></p>
+
+<script>
+
+console.log("Page Loaded");
+
+function testDebug(){
+
+let value = 10;
+
+console.log("Value =", value);
+
+document.getElementById("result").innerHTML =
+"Value = " + value;
+
+}
+
+</script>
+
+</body>
+</html>
