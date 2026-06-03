@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Registration Form</title>
+
+<style>
+body{
+font-family:Arial;
+padding:20px;
+}
+
+.error{
+color:red;
+font-size:14px;
+}
+
+input,select{
+padding:8px;
+width:250px;
+margin-bottom:10px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Event Registration</h2>
+
+<form id="registrationForm">
+
+<input type="text"
+name="username"
+placeholder="Enter Name">
+
+<br>
+
+<input type="email"
+name="email"
+placeholder="Enter Email">
+
+<br>
+
+<select name="event">
+
+<option value="">
+Select Event
+</option>
+
+<option value="Music Night">
+Music Night
+</option>
+
+<option value="Food Festival">
+Food Festival
+</option>
+
+</select>
+
+<br>
+
+<button type="submit">
+Register
+</button>
+
+</form>
+
+<div id="errors"></div>
+
+<script src="11-forms.js"></script>
+
+</body>
+</html> 
